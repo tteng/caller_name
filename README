@@ -1,7 +1,8 @@
 Usage:
 
 def test
- p " the caller is #{caller_method_name}"
+ file,method = caller_file_and_method_name
+ p " the caller file is #{file} and method is #{method}"
 end
 
 def going_to_call
