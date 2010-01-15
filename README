@@ -10,7 +10,7 @@ def going_to_call
 end
 
 going_to_call()
-=> " the caller is going_to_call"
+=> " the caller is (irb) and method is going_to_call"
 
 Source:
 
